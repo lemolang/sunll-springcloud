@@ -15,6 +15,7 @@
         <module>sunll-springcloud-eurekaserver</module>
         <module>sunll-springcloud-eurekaclient-a</module>
         <module>sunll-springcloud-eurekaclient-b</module>
+        <module>sunll-springcloud-consumer</module>
     </modules>
 
 	<parent>

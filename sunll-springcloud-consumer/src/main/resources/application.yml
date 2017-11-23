@@ -1,5 +1,5 @@
 server:
-  port: 8764
+  port: 8765
 
 eureka:
   instance:
@@ -10,4 +10,12 @@ eureka:
 
 spring:
   application:
-    name: eurekaclient-a
+    name: consumer-feign
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+
