@@ -1,0 +1,21 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@peer2:8762/eureka/
+
+spring:
+  application:
+    name: eurekaserver-a
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: root
+
