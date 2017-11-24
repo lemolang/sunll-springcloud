@@ -1,4 +1,4 @@
-package com.sunll.springcloud.consumer;
+package com.sunll.springcloud.hystrix.dashboard;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

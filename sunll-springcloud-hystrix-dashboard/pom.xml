@@ -7,26 +7,19 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-	<groupId>com.sunll.springcloud.consumer</groupId>
-	<artifactId>sunll-springcloud-consumer</artifactId>
+	<groupId>com.sunll.springcloud.hystrix.dashboard</groupId>
+	<artifactId>sunll-springcloud-hystrix-dashboard</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sunll-springcloud-consumer</name>
+	<name>sunll-springcloud-hystrix-dashboard</name>
 	<description>project for Spring Boot</description>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <!--eureka server -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -35,17 +28,12 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
 
     </dependencies>

@@ -16,6 +16,7 @@
         <module>sunll-springcloud-eurekaclient-a</module>
         <module>sunll-springcloud-eurekaclient-b</module>
         <module>sunll-springcloud-consumer</module>
+        <module>sunll-springcloud-hystrix-dashboard</module>
     </modules>
 
 	<parent>
