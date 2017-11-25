@@ -1,5 +1,5 @@
 server:
-  port: 8767
+  port: 8768
 
 eureka:
   instance:
@@ -10,4 +10,8 @@ eureka:
 
 spring:
   application:
-    name: hystrix-dashboard
+    name: hystrix-turbine
+
+turbine:
+  app-config: consumer-feign,consumer-feign-a
+  cluster-name-expression: "'default'"
